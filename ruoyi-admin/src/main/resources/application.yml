@@ -1,0 +1,5 @@
+springdoc:
+  api-docs:
+    enabled: true
+  info:
+    title: 'ruoyi-learn'
