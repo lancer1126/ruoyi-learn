@@ -6,7 +6,7 @@
     <parent>
         <groupId>fun.lance</groupId>
         <artifactId>ruoyi-common</artifactId>
-        <version>1.0.0</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>ruoyi-common-web</artifactId>

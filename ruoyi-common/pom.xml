@@ -17,6 +17,7 @@
         <module>ruoyi-common-doc</module>
         <module>ruoyi-common-json</module>
         <module>ruoyi-common-web</module>
+        <module>ruoyi-common-database</module>
     </modules>
 
 </project>

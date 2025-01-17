@@ -3,3 +3,17 @@ springdoc:
     enabled: true
   info:
     title: 'ruoyi-learn'
+    description: '一段描述'
+    contact:
+      name: lance
+      email: 123@12.com
+      url: xx.com
+  components:
+    security-schemes:
+      apiKey:
+        type: APIKEY
+        in: HEADER
+        name: xxx
+
+mybatis-plus:
+  mapperPackage: fun.lance.**.mapper

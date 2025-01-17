@@ -64,6 +64,12 @@
                 <artifactId>ruoyi-common-web</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <!-- 本地模块 common-web -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-database</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- hutool 的依赖配置-->
             <dependency>
