@@ -1,3 +1,10 @@
+spring:
+  profiles:
+    active: @profiles.active@
+  messages:
+    # 国际化资源文件路径
+    basename: i18n/messages
+
 springdoc:
   api-docs:
     enabled: true

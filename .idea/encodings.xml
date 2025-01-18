@@ -13,6 +13,10 @@
     <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-doc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-json/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-ratelimiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-ratelimiter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruoyi-common/ruoyi-common-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruoyi-common/src/main/java" charset="UTF-8" />

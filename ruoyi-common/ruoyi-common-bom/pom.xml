@@ -70,6 +70,18 @@
                 <artifactId>ruoyi-common-database</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <!-- 本地模块 common-redis -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <!-- 本地模块 common-redis -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-ratelimiter</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- hutool 的依赖配置-->
             <dependency>

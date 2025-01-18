@@ -16,14 +16,22 @@
     </description>
 
     <dependencies>
+        <!-- 本地common-doc -->
         <dependency>
             <groupId>fun.lance</groupId>
             <artifactId>ruoyi-common-doc</artifactId>
         </dependency>
+        <!-- 本地common-web -->
         <dependency>
             <groupId>fun.lance</groupId>
             <artifactId>ruoyi-common-web</artifactId>
         </dependency>
+        <!-- 本地common-database -->
+        <dependency>
+            <groupId>fun.lance</groupId>
+            <artifactId>ruoyi-common-database</artifactId>
+        </dependency>
+        <!-- spring-test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

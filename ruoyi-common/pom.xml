@@ -18,6 +18,8 @@
         <module>ruoyi-common-json</module>
         <module>ruoyi-common-web</module>
         <module>ruoyi-common-database</module>
+        <module>ruoyi-common-redis</module>
+        <module>ruoyi-common-ratelimiter</module>
     </modules>
 
 </project>
