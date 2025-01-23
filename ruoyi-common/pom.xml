@@ -20,6 +20,8 @@
         <module>ruoyi-common-database</module>
         <module>ruoyi-common-redis</module>
         <module>ruoyi-common-ratelimiter</module>
+        <module>ruoyi-common-log</module>
+        <module>ruoyi-common-satoken</module>
     </modules>
 
 </project>

@@ -82,6 +82,18 @@
                 <artifactId>ruoyi-common-ratelimiter</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <!-- 本地模块 common-satoken -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-satoken</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <!-- 本地模块 common-log -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-log</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- hutool 的依赖配置-->
             <dependency>

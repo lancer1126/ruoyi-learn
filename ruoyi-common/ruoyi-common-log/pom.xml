@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>fun.lance</groupId>
+        <artifactId>ruoyi-common</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ruoyi-common-log</artifactId>
+    <packaging>jar</packaging>
+
+    <name>ruoyi-common-log</name>
+
+    <dependencies>
+        <!-- 本地common-json -->
+        <dependency>
+            <groupId>fun.lance</groupId>
+            <artifactId>ruoyi-common-json</artifactId>
+        </dependency>
+        <!-- 本地common-satoken -->
+        <dependency>
+            <groupId>fun.lance</groupId>
+            <artifactId>ruoyi-common-satoken</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
