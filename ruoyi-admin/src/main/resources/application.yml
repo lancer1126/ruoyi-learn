@@ -24,3 +24,5 @@ springdoc:
 
 mybatis-plus:
   mapperPackage: fun.lance.**.mapper
+  mapper-locations: classpath*:/mapper/**/*.xml
+

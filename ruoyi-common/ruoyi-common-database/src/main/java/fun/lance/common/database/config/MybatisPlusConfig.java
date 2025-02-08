@@ -26,12 +26,12 @@ public class MybatisPlusConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
-        try {
-            // 多租户拦截器
-            TenantLineInnerInterceptor tenantInterceptor = SpringUtils.getBean(TenantLineInnerInterceptor.class);
-            interceptor.addInnerInterceptor(tenantInterceptor);
-        } catch (BeanException ignore) {
-        }
+//        try {
+//            // 多租户拦截器
+//            TenantLineInnerInterceptor tenantInterceptor = SpringUtils.getBean(TenantLineInnerInterceptor.class);
+//            interceptor.addInnerInterceptor(tenantInterceptor);
+//        } catch (BeanException ignore) {
+//        }
         //  分页拦截器
         interceptor.addInnerInterceptor(paginationInnerInterceptor());
         // 乐观锁拦截器
