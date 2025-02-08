@@ -33,13 +33,13 @@ spring:
 spring.data:
   redis:
     # 地址
-    host: 1.94.140.180
+    host: xxx
     # 端口，默认为6379
     port: 6379
     # 数据库索引
     database: 0
     # redis 密码必须配置
-    password: hyyccyC1126@
+    password: xxx
     # 连接超时时间
     timeout: 10s
     # 是否开启ssl
