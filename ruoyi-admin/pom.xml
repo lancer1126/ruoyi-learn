@@ -31,6 +31,11 @@
             <groupId>fun.lance</groupId>
             <artifactId>ruoyi-common-database</artifactId>
         </dependency>
+        <!-- 本地common-encrypt -->
+        <dependency>
+            <groupId>fun.lance</groupId>
+            <artifactId>ruoyi-common-encrypt</artifactId>
+        </dependency>
         <!-- spring-test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
