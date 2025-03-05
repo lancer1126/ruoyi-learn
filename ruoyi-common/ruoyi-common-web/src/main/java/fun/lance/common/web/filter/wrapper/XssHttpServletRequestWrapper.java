@@ -1,4 +1,4 @@
-package fun.lance.common.web.filter;
+package fun.lance.common.web.filter.wrapper;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletRequestWrapper;

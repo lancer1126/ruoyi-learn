@@ -3,6 +3,7 @@ package fun.lance.common.web.filter;
 import fun.lance.common.core.utils.SpringUtils;
 import fun.lance.common.core.utils.StrUtils;
 import fun.lance.common.web.config.properties.XssProperties;
+import fun.lance.common.web.filter.wrapper.XssHttpServletRequestWrapper;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpMethod;

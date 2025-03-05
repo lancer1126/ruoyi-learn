@@ -101,6 +101,12 @@
                 <artifactId>ruoyi-common-encrypt</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <!-- 本地模块 common-security -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- hutool 的依赖配置-->
             <dependency>
