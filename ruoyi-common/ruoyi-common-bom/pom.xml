@@ -107,6 +107,12 @@
                 <artifactId>ruoyi-common-security</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <!-- 本地模块 common-mq -->
+            <dependency>
+                <groupId>fun.lance</groupId>
+                <artifactId>ruoyi-common-mq</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- hutool 的依赖配置-->
             <dependency>

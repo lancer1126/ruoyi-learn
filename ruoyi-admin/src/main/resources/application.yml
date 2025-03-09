@@ -23,7 +23,7 @@ springdoc:
         name: xxx
 
 mybatis-plus:
-  mapperPackage: fun.lance.**.mapper
+  mapper-package: fun.lance.**.mapper
   mapper-locations: classpath*:/mapper/**/*.xml
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
