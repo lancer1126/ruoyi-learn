@@ -37,6 +37,7 @@
         <bouncycastle.version>1.76</bouncycastle.version>
         <justauth.version>1.16.6</justauth.version>
         <therapi-javadoc.version>0.15.0</therapi-javadoc.version>
+        <okhttp.version>4.12.0</okhttp.version>
     </properties>
 
     <dependencyManagement>
@@ -309,6 +310,12 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <!-- okhttp -->
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
