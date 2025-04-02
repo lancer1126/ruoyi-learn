@@ -12,13 +12,14 @@
     <modules>
         <module>ruoyi-common</module>
         <module>ruoyi-admin</module>
+        <module>ruoyi-task</module>
     </modules>
 
     <properties>
         <revision>1.0.0</revision>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot.version>3.4.1</spring-boot.version>
+        <spring-boot.version>3.4.4</spring-boot.version>
         <lombok.version>1.18.34</lombok.version>
         <therapi-javadoc.version>0.15.0</therapi-javadoc.version>
         <mapstruct-plus.version>1.4.5</mapstruct-plus.version>

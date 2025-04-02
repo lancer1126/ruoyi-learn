@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import fun.lance.admin.domain.dto.OrderDto;
 import fun.lance.admin.service.OrderService;
-import fun.lance.common.mq.config.RabbitConfig;
+import fun.lance.common.mq.config.RabbitOrderConfig;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -28,7 +28,7 @@ public class OrderServiceImpl implements OrderService {
             throw new RuntimeException(e);
         }
         log.info("发送订单到队列：{}", orderJson);
-        rabbitTemplate.convertAndSend(RabbitConfig.ORDER_EXCHANGE, RabbitConfig.ORDER_ROUTING_KEY, orderJson, msg -> {
+        rabbitTemplate.convertAndSend(RabbitOrderConfig.ORDER_EXCHANGE, RabbitOrderConfig.ORDER_ROUTING_KEY, orderJson, msg -> {
             msg.getMessageProperties().setExpiration("30000");
             return msg;
         });

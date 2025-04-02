@@ -1,11 +1,11 @@
 package fun.lance.common.mq.config;
 
 import org.springframework.amqp.core.*;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
-public class RabbitConfig {
+@AutoConfiguration
+public class RabbitOrderConfig {
     public static final String ORDER_EXCHANGE = "order.exchange";
     public static final String ORDER_QUEUE = "order.queue";
     public static final String ORDER_ROUTING_KEY = "order.routing.key";
